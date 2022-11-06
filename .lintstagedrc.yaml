@@ -1,0 +1,7 @@
+'src/**/*.tsx?':
+  # - eslint --fix
+  - prettier --write
+'*.jsx?':
+  - prettier --write
+'*.{json,jsonc,md,yml,yaml}':
+  - prettier --write
